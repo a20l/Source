@@ -36,15 +36,9 @@ public class HighestAndLowestNum {
 
     public static void main(String[] args) {
         String nums = "8 3 -5 42 -1 0 0 -9 4 7 4 -4";
-        System.out.println(highAndLow(nums));
+        System.out.println(highAndLow(nums)); // "42 -9" 
 
 
     }
 
 }
-
-
-// ("1 2 3 4 5") = (12345)
-// make it an Integer or Array of Integers
-// loop and check if the i > i+1 = assign to temp
-//return lowest and highest as a string
